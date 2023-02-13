@@ -1,17 +1,60 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 1px;
     box-sizing: border-box;
 } 
 
 #intestazione {
     background-color: lightblue;
     background-image: url(./img/pattern.png);
-    background-size: 30%;
-    background-position: center;
+    background-size: 35%;
+    background-position: top;
     height: 100px;
 }
 
-main > img {
+header > img {
     margin-top: 50px;
+}
+
+main {
+    margin: auto;
+    max-width: 80%;
+}
+
+.sottotitolo {
+    color: lightslategray;
+}
+
+#span-in-blu {
+    color: blue;
+}
+
+#info-photo-tim {
+    font-size: small;
+}
+
+.contenitore {
+    margin-left: 1em;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+table {
+    text-align: center;
+    border-spacing: 0;
+}
+
+td {
+    width: 400px;
+}
+
+th {
+    color: white;
+    background-color: rgb(37, 175, 209);
+}
+
+.righe-colorate  {
+    background-color: lightblue;
 }
