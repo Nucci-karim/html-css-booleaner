@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+#intestazione {
+    background-color: lightblue;
+    background-image: url(./img/pattern.png);
+    background-size: 30%;
+    background-position: center;
+    height: 100px;
+}
+
+main > img {
+    margin-top: 50px;
+}
